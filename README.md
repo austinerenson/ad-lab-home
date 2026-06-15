@@ -4,9 +4,9 @@ A hands-on Active Directory lab focused on Windows administration, authenticatio
 
 ## Overview
 
-This repository documents the design, deployment, and analysis of a Windows Active Directory environment used for learning enterprise administration and security practices.
+This repository documents the setup, configuration, and analysis of a Windows Active Directory environment used to develop practical enterprise administration and security skills.
 
-The lab environment includes:
+The lab environment consists of:
 
 * Windows Server Domain Controller
 * Windows Workstation
@@ -16,13 +16,14 @@ The lab environment includes:
 
 * Understand Active Directory architecture and administration
 * Learn Windows authentication mechanisms such as Kerberos and NTLM
-* Explore Group Policy and permission management 
+* Explore Group Policy and permission management
 * Develop PowerShell skills for automation and administration
 * Study common security weaknesses and defensive considerations
 * Document findings and lessons learned throughout the lab
 
 ## Repository Structure
 
+```text
 setup/
 ├── dc-01-setup.md
 ├── ws-01-join.md
@@ -30,24 +31,21 @@ setup/
 
 concepts/
 ├── kerberos-auth-flow.md
-├── delegation-types.md
-└── domain-trusts.md
+└── delegation-types.md
 
 misconfigs/
 └── intentional-weaknesses.md
+```
 
-diagrams/
-└── lab-topology.png
+## Current Progress
 
-## Related Repositories
+* [ ] Domain Controller deployed
+* [ ] Workstation joined to domain
+* [ ] Kali workstation configured
+* [ ] Kerberos concepts documented
+* [ ] Delegation concepts documented
+* [ ] Initial security testing completed
 
-This repository forms part of a broader Active Directory learning project:
+## Notes
 
-* ad-lab-home
-* ps-red-team-toolkit
-* ad-attack-playbooks
-* bloodhound-analysis
-
-## Status
-
-🚧 Environment under development
+This repository is actively updated as the lab evolves and new concepts, configurations, and findings are documented.
