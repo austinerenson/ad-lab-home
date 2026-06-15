@@ -16,7 +16,7 @@ The lab environment includes:
 
 * Understand Active Directory architecture and administration
 * Learn Windows authentication mechanisms such as Kerberos and NTLM
-* Explore Group Policy and permission management
+* Explore Group Policy and permission management 
 * Develop PowerShell skills for automation and administration
 * Study common security weaknesses and defensive considerations
 * Document findings and lessons learned throughout the lab
